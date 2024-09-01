@@ -1,0 +1,29 @@
+.box1{
+    /* border: 1px solid black !important;
+    font-size: 50px ;
+    font-weight: bold;
+    color: aqua ;
+    margin-top: 5px !important; */
+    border: 1px solid;
+    margin-bottom: 5px;
+    font-size: x-large;
+    background-color: #dddddd;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5px;
+}
+/* 
+button{
+    width: 90px;
+    height: 30px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    position: relative;
+    /* bottom: 5; */
+    /* top: 230px;
+    left: 1060px; */
+/* } */ */
+
+.main{
+    margin-top: 5px;
+}
