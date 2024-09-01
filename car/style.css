@@ -1,0 +1,29 @@
+.brands{
+    width: 250px;
+}
+.model{
+    width: 250px;
+}
+
+.hide{
+    display: none;
+}
+.box{
+    display: block;
+}
+
+.logo{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.box-1{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.pro{
+width: 100%;
+object-fit: contain;
+}

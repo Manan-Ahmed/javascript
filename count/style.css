@@ -1,0 +1,14 @@
+.count-value{
+    width: 800px;
+}
+
+
+@media only screen and (max-width: 600px){
+    .count-value{
+        width: 400px;
+    }
+    .btn1{
+        margin-top: 5px;
+        width: 60px;
+    }
+}

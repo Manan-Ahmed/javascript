@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+     <div class="container">
+        <div class="search-box">
+            <i class='bx bxs-map'></i>
+            <input type="text" name="" placeholder="enter your city" id="input">
+            <!-- <button><i class='bx-search'></i></button> -->
+             <button onclick="search()">search</button>
+            <!-- <button> <box-icon class="btn" name='search'></box-icon></button> -->
+        </div>
+
+<div class="weather-box">
+    <div class="box">
+        <div class="info-weather">
+            <div class="weather">
+                <div class="boxes">
+                <img class="pro" src="images/clear.png" alt="">
+            </div>
+                <p class="temprature">16 <span>c</span>
+                    <p class="description">breken clouds</p>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="wather-detail">
+    <div class="humadity">
+        <i class="bx bx-water"></i>
+        <span class="info-humadity">0%</span>
+        <div class="text">
+        <!-- <div class="info-humadity">
+            <span>0%</span>
+        </div> -->
+         <p class="humd">humidity</p>
+        </div>
+    </div>
+<!-- </div> -->
+
+<div class="wind">
+    <i class="bx bx-wind"></i>
+    <span class="wind-num">0km</span>
+
+    <div class="text">
+    <!-- <div class="info-wind">
+     <span class="wind-num">0km</span> 
+    </div> -->
+     <p >windspeed</p>
+    </div>
+</div>
+</div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

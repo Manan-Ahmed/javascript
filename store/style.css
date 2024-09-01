@@ -1,0 +1,68 @@
+.pic{
+    width: 60px;
+    height: 30px;
+}
+
+.log{
+    width: 100%;
+    height: auto;
+    /* flex-wrap: nowrap; */
+    /* object-fit: contain; */
+}
+
+
+.item{
+    /* display: block;
+    /* margin: auto; */ 
+    /* text-align: center; */
+    border: 1px solid black;
+    /* left: 25%; */
+}
+
+.btn{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    /* text-align: center; */
+}
+
+:hover.add{
+     background-color: rgba(215, 205, 205, 0.849);
+}
+
+.selCard{
+    display: block;
+    margin: auto;
+}
+
+#inp{
+   width: 60px;
+}
+
+.btn-2{
+    width: 600px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+
+.show-item{
+    /* display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: nowrap; */
+}
+
+.inp{
+    width: 700px;
+    text-align: center;
+    margin: auto;
+}
