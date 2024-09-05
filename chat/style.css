@@ -1,0 +1,133 @@
+body{
+    /* background-color: #ffffff; */
+    /* background-image: url("https://img.freepik.com/free-psd/futuristic-robot-illustration_23-2150979001.jpg?size=626&ext=jpg&ga=GA1.1.44546679.1716768000&semt=ais_user"); */
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST8b7C53IMGKVPSfzXMvO62aphMyyDM8aVgg&s");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.log-2{
+    width: 130px;
+}
+
+.profile{ 
+    display: flex;
+    justify-content: space-between;
+    
+    top: 0;
+    position: fixed;
+    width: 100%;
+
+     right: 2px;
+    left: 2p;
+    z-index: 10000;
+}
+.log-1{ 
+    padding-left: 15px;
+        height: 90px;
+        margin-top:  5px;
+        z-index: 1000;
+}
+
+
+.inp{ 
+    width: 800px;
+    height: 30px;
+    border-radius: 10px;
+    border-color: none;
+} 
+
+.main{
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+
+ul{
+    margin-top: 120px;
+}
+
+
+button{
+    align-items: center;
+    height: 30px;
+
+}
+
+.left{
+    font-size: 30px;
+    width: 280px;
+    border-radius: 10px;
+    background-color: #cfcfe4;
+    align-items: center;
+    list-style-type: none;
+    margin-top: 20px;
+
+}
+
+.right{
+    width: 280px;
+    font-size: 30px;
+    margin-top: 10px;
+    text-align: right;
+    border-radius: 10px;
+    background-color: #43b04a;
+    list-style-type: none;
+    position: relative;
+    left: 1000px;
+   
+}
+@media only screen and (max-width: 700px){
+    body{
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST8b7C53IMGKVPSfzXMvO62aphMyyDM8aVgg&s");
+        /* background-size: auto; */
+       background-repeat: no-repeat;
+       width: 100%;
+    }
+
+    
+    .inp{
+        width: 450px;
+    }
+
+    .left{
+         font-size: 20px;
+    border: 1px solid black;
+    width: 200px;
+   
+    border-radius: 10px;
+    background-color: #cfcfe4;
+    align-items: center;
+    list-style-type: none;
+
+    }
+    
+.right{
+    width: 200px;
+    font-size: 30px;
+    text-align: right;
+    border-radius: 10px;
+    background-color: #27c2e2;
+    list-style-type: none;
+    position: relative; 
+    left: 350px; 
+}
+
+.main{
+    position: fixed;
+    bottom: 10px;
+    /* border: 1px solid black; */
+    width: 100%;
+    text-align: center;
+    /* z-index: 1000; */
+    /* background-color: #cfcfe4; */
+    /* width: 350px; */
+   /* text-align: center; */
+}
+
+ 
+
+}
